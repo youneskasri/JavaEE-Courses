@@ -15,6 +15,8 @@ public abstract class LogMessageFormatter implements LogMessage {
 	@Any
 	@Delegate
 	@Inject
+	@ComplexMessage /* Only the instances  annotated with this  are 
+decorated
 	private LogMessage logMessage;
 
 	@Override
